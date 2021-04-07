@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.authorization {
+    background-color: #990209;
+    padding: 1.7rem;
+    text-align: center;
+    box-shadow: 0 5px 5px white;
+    margin: 1rem;
+}
+
+.authorization div {
+    margin-bottom: 1.3rem;
+}
+
+.authorization input[type="tel"],
+.authorization input[type="text"],
+.authorization input[type="email"],
+.authorization input[type="password"] {
+    background: transparent;
+    font-size: 1.5rem;
+    border: 2px solid white;
+}
+
+input::-webkit-input-placeholder {color:white}
+input::-moz-placeholder {color: white}
+
+input:focus::-webkit-input-placeholder {color: white}
+input:focus::-moz-placeholder {color: white}

@@ -1,0 +1,98 @@
+header {
+    background-color: #990209;
+    box-shadow: 0 5px 5px white;
+}
+
+.navigation {
+    display: flex;
+    max-width: 1200px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav a {
+    font-size: 2rem;
+    margin: .75rem;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex: 0 0 auto;
+    height: 100px;
+    margin-bottom: 0;
+    text-align: center;   
+    align-items: center;
+    justify-content: center; 
+    background-color: #990209;
+}
+
+html {
+    height: 100%;
+}
+
+body {  
+    margin: 0;    
+    height: 100%;
+    color: white;
+    background: url(../images/blue.jpeg) fixed;
+    background-color: #11151e;
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    nav {
+        justify-content: flex-end;   
+    }
+
+    nav a {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 767px){
+    nav {
+        justify-content: flex-end;   
+    }
+
+    nav a {
+
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 539px){ 
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    nav a {
+        font-size: 2rem;
+        margin: 1%;
+    }
+    .img {
+        width: 20%;
+    }
+    div a {
+        order: 1;
+    }
+    div nav {
+        order: 2;
+    }
+}
